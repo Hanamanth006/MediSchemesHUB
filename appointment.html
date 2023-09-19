@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .book {
+            background-color: burlywood;
+            width: 400px;
+            height: 250px;
+            position: relative;
+            left: 550px;
+            top: 220px;
+            text-align: center;
+            border: 1px solid blueviolet;
+            border-radius: 50px;
+
+
+        }
+
+        input {
+            position: relative;
+            top: 20px;
+
+        }
+
+        button {
+            position: relative;
+            top: 15px;
+            font-size: 17px;
+            font-weight: bold;
+            color: brown;
+            border: 0.5px solid blueviolet;
+            border-radius: 5px;
+        }
+
+        label {
+            position: relative;
+            top: 20px;
+            font-size: 17px;
+            font-weight: bold;
+            color: brown;
+        }
+
+        body {
+            background-color: rgb(164, 142, 122);
+
+        }
+
+        .t {
+            height: 60px;
+            width: 270px;
+            background-color: cadetblue;
+            text-align: center;
+            border: 1px solid blueviolet;
+            border-radius: 13px;
+            position: relative;
+            left: 610px;
+            top: 210px;
+
+        }
+
+        .t h2 {
+            position: relative;
+            bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="t">
+        <h2>Book Your Appointment</h2>
+    </div>
+    <div class="book">
+        <form action="sucess.html">
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Enter Your Name"><br><br>
+            <label for="age">Age:</label>
+            <input type="text" placeholder="Enter Age"><br><br>
+            <label for="number">Mobile Number:</label>
+            <input type="text" placeholder="Enter Mobile Number"><br><br>
+            <label for="add">Adress Line:</label>
+            <input type="text" placeholder="Address"><br><br>
+            <label for="slot">Select Timing:</label>
+            <input type="date" placeholder="Select Appointment Slot"><br><br>
+            <button>submit</button>
+        </form>
+    </div>
+
+
+</body>
+
+</html>

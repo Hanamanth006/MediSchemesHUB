@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    .back {
+        position: absolute;
+        top: 10px;
+
+        left: 500px;
+        height: 650px;
+        width: 500px;
+        background-color: rgb(132, 119, 148);
+        border-radius: 25px;
+
+    }
+
+    .main {
+        position: absolute;
+        top: 45px;
+        left: 530px;
+        height: 650px;
+        width: 500px;
+        background-color: rgb(165, 155, 177);
+        border-radius: 25px;
+    }
+
+    #title {
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 25px;
+        font-weight: bolder;
+        color: white;
+    }
+
+    #line1 {
+        position: absolute;
+        left: 90px;
+
+    }
+
+    #first {
+        position: relative;
+        width: 180px;
+        right: 70px;
+        height: 35px;
+        border: 1px solid white;
+
+        outline: none;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 10px;
+    }
+
+    #last {
+        position: relative;
+        width: 180px;
+        right: 20px;
+        height: 35px;
+        border: 1px solid white;
+
+        outline: none;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-radius: 10px;
+    }
+
+    .form1 {
+        position: absolute;
+        top: 150px;
+        left: 20px;
+
+    }
+
+    #mail {
+        position: relative;
+
+
+        height: 35px;
+        width: 450px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 15px;
+        border: 1px solid white;
+
+        outline: none;
+        border-radius: 10px;
+    }
+
+    #user {
+        position: relative;
+
+        height: 35px;
+        width: 450px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 15px;
+        border: 1px solid white;
+
+        outline: none;
+        top: 17px;
+        border-radius: 10px;
+    }
+
+    #word {
+        position: relative;
+
+        height: 35px;
+        width: 450px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 15px;
+        border: 1px solid white;
+
+        outline: none;
+        top: 34px;
+        border-radius: 10px;
+    }
+
+    #add {
+        position: relative;
+
+        height: 35px;
+        width: 450px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 15px;
+        border: 1px solid white;
+
+        outline: none;
+        top: 51px;
+        border-radius: 10px;
+    }
+
+    #ph {
+        position: relative;
+
+        height: 35px;
+        width: 450px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 15px;
+        border: 1px solid white;
+
+        outline: none;
+        top: 68px;
+        border-radius: 10px;
+    }
+
+    #bu {
+        position: relative;
+
+        height: 35px;
+        width: 80px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 15px;
+        border: 0px solid white;
+
+        outline: none;
+        top: 85px;
+        border-radius: 10px;
+        left: 190px;
+        text-align: center;
+        color: white;
+        font-weight: bolder;
+        font-size: larger;
+        background-color: rgb(132, 119, 148);
+
+    }
+
+    .us {
+        position: absolute;
+        left: 400px;
+        top: 8px;
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 30px;
+        color: rgb(132, 119, 148);
+    }
+
+    #text {
+        position: relative;
+        top: 500px;
+        left: 130px;
+
+    }
+
+    .last {
+
+        position: relative;
+        left: 600px;
+        top: 610px;
+        font-size: 25px;
+        color: rgb(91, 85, 98);
+    }
+</style>
+
+<body>
+    <div class="back">
+
+    </div>
+
+    <div class="main">
+        <i class="fa-solid fa-user-plus us"></i>
+        <h3 id="title">SIGNUP</h3>
+        <div class="form">
+            <form action="bodybo.html">
+                <span id="line1">
+                    <input type="text" placeholder="First Name" id="first">
+                    <input type="text" placeholder="Last Name" id="last">
+                </span>
+                <div class="form1">
+                    <input type="email" placeholder=" Email Id" id="mail"><br><br>
+                    <input type="text" placeholder="Username" id="user"><br><br>
+                    <input type="password" placeholder="Password" id="word"><br><br>
+                    <input type="text" placeholder="Address" id="add"><br><br>
+                    <input type="phone number" placeholder="Phone number" id="ph"><br><br>
+                    <button id="bu">SUBMIT</button>
+                </div>
+            </form>
+            <h4 id="text"><a href="login.html">Already have an account?Login here</a></h4>
+        </div>
+
+    </div>
+
+    <i class="fa-solid fa-hand-point-right last"></i>
+
+
+
+</body>
+
+</html>
